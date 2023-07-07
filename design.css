@@ -228,7 +228,7 @@ button.books:focus{
 }
 footer h4{
 height: 2px;
-font-size: 6px;
+font-size: 18px;
 }
 #socialmedia{
     display:block;
@@ -245,11 +245,11 @@ font-size: 6px;
 
 #contact h5{
     height:2px;
-    font-size:6px;
+    font-size:18px;
 }
 #contact h4{
     font-weight: bolder;
-    font-size: 4px;
+    font-size: 12px;
 }
 
 img.backtotop{
