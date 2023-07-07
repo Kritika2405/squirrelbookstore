@@ -8,7 +8,7 @@ h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 150%;
+    font-size: 200%;
     text-decoration: underline;
 }
 #intro h4{
@@ -176,7 +176,7 @@ button.books:focus{
     
     margin-left:100px;
     width:100%;
-    height:100%;
+    height:80%;
     border:3px solid #000000;
     background: -webkit-radial-gradient(white,rgba(255, 234, 0, 0.781));
     border-radius: 135px;
