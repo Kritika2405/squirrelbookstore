@@ -3,6 +3,8 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    margin:0px;
+    padding:0px;
 }
 h1{
     text-align: center;
@@ -52,6 +54,7 @@ img{
 
 .books{
     box-sizing: border-box;
+    text-align:justify;
     margin:10px;
     border:2px solid rgb(111, 49, 5);
     background:-webkit-radial-gradient(rgba(255, 119, 0, 0.606),white);
