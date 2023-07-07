@@ -8,8 +8,12 @@ h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 200%;
+    font-size: 400%;
     text-decoration: underline;
+}
+#intro h4{
+    font-size:250%;
+    font-weight:bolder;
 }
 /*design for the introduction page*/
 #intro{
@@ -51,7 +55,7 @@ img{
     margin:10px;
     border:2px solid rgb(111, 49, 5);
     background:-webkit-radial-gradient(rgba(255, 119, 0, 0.606),white);
-    border-radius: 5px;
+    border-radius: 10px;
     /*background-color:rgba(192, 85, 9, 0.479) ;*/
     padding:2%;
     display:inline-table;
@@ -130,7 +134,7 @@ button.books:focus{
 
 /*DESIGN FOR REVIEWS SECTION*/
 #costumer1{
-    margin-left:10px;
+    margin-left:50px;
     margin-top:2%;
     margin-right:10px;
     margin-bottom:10px;
@@ -148,7 +152,7 @@ button.books:focus{
     
 }
 #costumer{
-    margin-left:10PX;
+    margin-left:50PX;
     
     margin-bottom:10px;
         
