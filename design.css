@@ -1,0 +1,294 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 200%;
+    text-decoration: underline;
+}
+/*design for the introduction page*/
+#intro{
+    margin-top:150px;
+    text-align: center;
+    display:inline-block;
+    width:50%;
+}
+img{
+    border-radius: 370px;
+    float:right;
+    margin-top: 90px;
+    display: inline;
+    width:50%;
+}
+
+#intro button{
+    background-color: aqua;
+    border:2px black solid;
+    height:30px;
+    border-radius:15px;
+    cursor:pointer;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*design for the best-selling page*/
+#best{
+    display: inline-block;
+    width:100%;
+    margin-top:40px;
+    text-align:center;
+    
+}
+
+
+.books{
+    box-sizing: border-box;
+    margin:10px;
+    border:2px solid rgb(111, 49, 5);
+    background:-webkit-radial-gradient(rgba(255, 119, 0, 0.606),white);
+    border-radius: 5px;
+    /*background-color:rgba(192, 85, 9, 0.479) ;*/
+    padding:2%;
+    display:inline-table;
+    width:30%;
+    height:40%;
+    overflow: scroll;
+}
+img.books{
+    display:inline-flex;
+    text-align: center;
+}
+button.books:active{
+    background-color: rgb(130, 252, 0);
+}
+button.books:focus{
+    background-color: rgb(130, 252, 0);
+}
+
+
+/*design for the recommendations page*/
+
+.search{
+    background-color: rgba(239, 194, 178, 0.905);
+    padding:5px;
+    height:25px;
+    width:30%;
+    border:1px solid #824307;
+    margin-right:none;
+    margin-bottom: 20px;
+    border-radius: 15px 0px 0px 15px;
+}
+.search:hover{
+    background-color: rgba(239, 194, 178, 0.905);
+    padding:5px;
+    height:30px;
+    width:30%px;
+    font-weight:bolder;
+    border: 4px solid #824307;
+    border-radius: 15px 0px 0px 15px;
+}
+.search:focus{
+    background-color: rgba(239, 194, 178, 0.905);
+    padding:5px;
+    outline:none;
+    height:30px;
+    width:30%;
+    font-weight:bolder;
+    border: 4px solid #824307;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.search-button {
+    margin-left: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(255, 77, 0);
+    background: rgb(255, 77, 0);
+    /*text-align: center;*/
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    top:20px;
+  }
+
+.wrap{
+    display:inline-block;
+
+    margin-left:35%;
+    width: 100%;
+    /*position: absolute;*/
+    margin-top:2%;
+    
+    
+}
+
+/*DESIGN FOR REVIEWS SECTION*/
+#costumer1{
+    margin-left:10px;
+    margin-top:2%;
+    margin-right:10px;
+    margin-bottom:10px;
+        
+        box-sizing: border-box;
+        
+        border:2px solid rgb(180, 98, 4);
+        background:-webkit-radial-gradient(rgba(255, 174, 0, 0.606),white);
+        border-radius: 10%;
+        /*background-color:rgba(192, 85, 9, 0.479) ;*/
+        padding:2%;
+        
+        width:400px;
+        height:20%;
+    
+}
+#costumer{
+    margin-left:10PX;
+    
+    margin-bottom:10px;
+        
+        box-sizing: border-box;
+        
+        border:2px solid rgb(180,98,4);
+        background:-webkit-radial-gradient(rgba(255, 174, 0, 0.606),white);
+        border-radius: 10%;
+        /*background-color:rgba(192, 85, 9, 0.479) ;*/
+        padding:2%;
+        
+        width:400px;
+        height:20%;
+        
+    
+}
+
+
+#formrev{
+    box-sizing: border-box;
+    
+    margin-left:100px;
+    width:100%;
+    height:70%;
+    border:3px solid #000000;
+    background: -webkit-radial-gradient(white,rgba(255, 234, 0, 0.781));
+    border-radius: 135px;
+    padding:35px;
+    text-align:center;
+    margin-top:2px;
+}
+
+.feedback{
+    border:2px solid #7f4503;
+    width:80%;
+    height:25px;
+    background-color: rgba(210, 105, 30, 0.3);
+    
+    border-radius: 0 12px 0 12px;
+    
+}
+.feedback2{
+    border:2px solid #7f4503;
+    width:80%;
+    background-color: rgba(210, 105, 30, 0.3);
+    
+    border-radius: 0 12px 0 12px;
+    
+}
+.submitbutton{
+    border:2px solid #7f4503;
+    
+    background-color: rgba(210, 105, 30, 0.3);
+    
+    border-radius:12px;
+}
+.submitbutton:hover{
+    border:2px solid #7f4503;
+    
+    background-color: #7f4503;
+    cursor: pointer;
+    border-radius:12px;
+}
+.submitbutton:active{
+    border:2px solid #7f4503;
+    
+    background-color: #7f4503;
+    cursor: pointer;
+    border-radius:12px;
+}
+footer h4{
+height: 2px;
+}
+#socialmedia{
+    display:block;
+    width:30%;
+    float:left;
+}
+#contact{
+    margin-top:2px;
+    display:block;
+    width:30%;
+    height:40px;
+    float:right;
+}
+
+#contact h5{
+    height:2px;
+}
+#contact h4{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+img.backtotop{
+    float:right;
+    width:40px;
+    clear:both;
+}
+img.social{
+    margin:3px;
+    margin-top:1px;
+    float:left;
+    width:30px;
+}
+/*navigation bar-common in all*/
+nav{
+    
+    visibility: block;
+    height:40px;
+    width:100%;
+    position:fixed;
+    margin-top:0px;
+    margin-left:none;
+    background-color: #F36C22;
+    z-index:100;
+    overflow-y:scroll;
+
+}
+nav a{
+    font-size: 100%;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#000000;
+    font-weight: bolder;
+    margin:0.5%;
+    padding:5%;
+    text-decoration: none;
+}
+nav img{
+    margin-top: 0px;
+    display:inline;
+    width:60px;
+    float:left;
+}
+
+#REVIEWS UL{
+    DISPLAY : FLEX;
+    flex-basis: 2px;
+    LIST-STYLE-TYPE : NONE;
+    
+}
+
+
