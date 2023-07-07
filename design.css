@@ -227,7 +227,7 @@ button.books:focus{
     border-radius:12px;
 }
 footer h4{
-height: 2px;
+height: 5px;
 font-size: 18px;
 }
 #socialmedia{
@@ -244,7 +244,7 @@ font-size: 18px;
 }
 
 #contact h5{
-    height:2px;
+    height:5px;
     font-size:18px;
 }
 #contact h4{
@@ -286,6 +286,15 @@ nav a{
     padding:5%;
     text-decoration: none;
 }
+nav a:hover
+{font-size: 100%;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#000000;
+    font-weight: bolder;
+    margin:0.5%;
+    padding:5%;
+    text-decoration: underline;}
+    
 nav img{
     margin-top: 0px;
     display:inline;
